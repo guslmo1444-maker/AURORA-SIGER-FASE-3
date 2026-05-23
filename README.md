@@ -4,9 +4,9 @@
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> Sistema autônomo para gerenciamento energético de colônias espaciais, capaz de tomar decisões inteligentes em tempo rea
+> Sistema autônomo para gerenciamento energético de colônias espaciais, capaz de tomar decisões inteligentes em tempo real.
 
-## Índice
+## 📋 Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades](#funcionalidades)
@@ -20,7 +20,7 @@
 
 ---
 
-## Sobre o Projeto
+## 🎯 Sobre o Projeto
 
 Este sistema foi desenvolvido para **gerenciar de forma inteligente** a energia de uma colônia em Marte. Ele monitora consumo, geração e condições climáticas, tomando **decisões automáticas** para evitar crises energéticas e otimizar o uso dos recursos disponíveis.
 
@@ -52,7 +52,7 @@ Em uma colônia espacial, a energia é um recurso crítico. Falhas no gerenciame
 
 ---
 
-## Como Funciona
+## 🔧 Como Funciona
 
 ### 1. Organização dos Dados
 
@@ -75,8 +75,7 @@ colonia = {
         "temperatura": -20    # °C - temperatura externa
     }
 }
-
-### 2. Regras de Decisão
+2. Regras de Decisão
 O sistema aplica regras lógicas para tomar decisões:
 
 python
@@ -92,9 +91,8 @@ if consumo_total > geracao_total + reserva:
 # Regra 3: Aproveitar excedente
 if geracao_total > consumo_total:
     armazenar_excedente()
-
-### 3. Ṕrevisão com Regressão Linear
-Usado mínimos quadrados para prever energia eólica:
+3. Previsão com Regressão Linear
+Usamos mínimos quadrados para prever energia eólica:
 
 python
 # Dados históricos
@@ -105,16 +103,14 @@ energia = [20, 25, 30]   # kW
 previsao = 2.5 * vento_atual
 
 # Exemplo: vento = 11 km/h → previsão ≈ 27.5 kW
-
-### 4. Análise Energética
+4. Análise Energética
 Compara geração e consumo para gerar ações:
 
 Situação	Ação do Sistema
 Consumo > Geração	⚠️ ALERTA: ativar reserva
 Geração > Consumo	💡 SUGESTÃO: armazenar excedente
 Geração < 60% do Consumo	🔴 CRÍTICO: desligar não essenciais
-
-### Exemplo de Uso
+📊 Exemplo de Uso
 Entrada (Dados da Colônia)
 python
 Geração Solar: 40 kW
@@ -174,7 +170,7 @@ text
 
 ======================================================================
  SISTEMA ENCERRADO - ANÁLISE COMPLETA
-
+======================================================================
 📁 Estrutura do Código
 text
 sistema-colonia-marte/
@@ -195,4 +191,3 @@ regressao_linear_previsao()	Calcula coeficientes da reta usando mínimos quadrad
 gerenciar_reserva()	Usa ou armazena energia da reserva automaticamente
 determinar_nivel_alerta()	Classifica situação como VERDE/AMARELO/VERMELHO
 registrar_evento()	Mantém histórico de todas as ações
-======================================================================
