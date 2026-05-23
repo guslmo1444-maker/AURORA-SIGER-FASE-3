@@ -1,26 +1,23 @@
 # AURORA-SIGER-FASE-3
-# 🚀 Sistema Inteligente da Colônia em Marte
-
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+# Sistema Inteligente da Colônia em Marte
 
 > Sistema autônomo para gerenciamento energético de colônias espaciais, capaz de tomar decisões inteligentes em tempo real.
 
 ## 📋 Índice
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Funcionalidades](#funcionalidades)
-- [Como Funciona](#como-funciona)
-- [Exemplo de Uso](#exemplo-de-uso)
-- [Estrutura do Código](#estrutura-do-código)
+- [Sobre o Projeto]
+- [Funcionalidades]
+- [Como Funciona]
+- [Exemplo de Uso]
+- [Estrutura do Código]
 - [Como Executar](#como-executar)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Contribuição](#contribuição)
-- [Equipe](#equipe)
+- [Tecnologias Utilizadas]
+- [Contribuição]
+- [Equipe]
 
 ---
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
 Este sistema foi desenvolvido para **gerenciar de forma inteligente** a energia de uma colônia em Marte. Ele monitora consumo, geração e condições climáticas, tomando **decisões automáticas** para evitar crises energéticas e otimizar o uso dos recursos disponíveis.
 
