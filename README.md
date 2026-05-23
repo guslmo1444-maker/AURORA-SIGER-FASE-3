@@ -10,7 +10,7 @@
 - [Como Funciona]
 - [Exemplo de Uso]
 - [Estrutura do Código]
-- [Como Executar](#como-executar)
+- [Como Executar]
 - [Tecnologias Utilizadas]
 - [Contribuição]
 - [Equipe]
