@@ -27,7 +27,7 @@ Em uma colônia espacial, a energia é um recurso crítico. Falhas no gerenciame
 - ❌ Perda de pesquisas científicas
 - ❌ Risco à vida dos colonos
 
-### Nossa solução
+### Solução
 - ✅ Monitoramento contínuo em tempo real
 - ✅ Decisões automáticas baseadas em regras inteligentes
 - ✅ Previsão de geração usando dados históricos
