@@ -72,7 +72,7 @@ colonia = {
         "temperatura": -20    # °C - temperatura externa
     }
 }
-2. Regras de Decisão
+### 2. Regras de Decisão
 O sistema aplica regras lógicas para tomar decisões:
 
 python
@@ -88,7 +88,7 @@ if consumo_total > geracao_total + reserva:
 # Regra 3: Aproveitar excedente
 if geracao_total > consumo_total:
     armazenar_excedente()
-3. Previsão com Regressão Linear
+### 3. Previsão com Regressão Linear
 Usamos mínimos quadrados para prever energia eólica:
 
 python
@@ -100,14 +100,14 @@ energia = [20, 25, 30]   # kW
 previsao = 2.5 * vento_atual
 
 # Exemplo: vento = 11 km/h → previsão ≈ 27.5 kW
-4. Análise Energética
+### 4. Análise Energética
 Compara geração e consumo para gerar ações:
 
 Situação	Ação do Sistema
 Consumo > Geração	⚠️ ALERTA: ativar reserva
 Geração > Consumo	💡 SUGESTÃO: armazenar excedente
 Geração < 60% do Consumo	🔴 CRÍTICO: desligar não essenciais
-📊 Exemplo de Uso
+### 📊 Exemplo de Uso
 Entrada (Dados da Colônia)
 python
 Geração Solar: 40 kW
@@ -121,7 +121,7 @@ Consumo Total: 70 kW
 
 Velocidade do Vento: 11 km/h
 Temperatura Externa: -20°C
-Saída (Decisões do Sistema)
+### Saída (Decisões do Sistema)
 text
 ======================================================================
  SISTEMA INTELIGENTE DA COLÔNIA - INICIANDO ANÁLISE
@@ -168,7 +168,7 @@ text
 ======================================================================
  SISTEMA ENCERRADO - ANÁLISE COMPLETA
 ======================================================================
-📁 Estrutura do Código
+### 📁 Estrutura do Código
 text
 sistema-colonia-marte/
 │
@@ -181,7 +181,7 @@ sistema-colonia-marte/
 ├── README.md                  # Documentação (este arquivo)
 │
 └── relatorio.pdf              # Relatório detalhado do projeto
-Funções Implementadas
+### Funções Implementadas
 Função	Responsabilidade
 calcular_aquecimento()	Define necessidade de aquecimento baseado na temperatura
 regressao_linear_previsao()	Calcula coeficientes da reta usando mínimos quadrados
