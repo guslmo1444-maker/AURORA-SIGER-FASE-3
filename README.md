@@ -5,15 +5,15 @@
 
 ## 📋 Índice
 
-- [Sobre o Projeto]
-- [Funcionalidades]
-- [Como Funciona]
-- [Exemplo de Uso]
-- [Estrutura do Código]
-- [Como Executar]
-- [Tecnologias Utilizadas]
-- [Contribuição]
-- [Equipe]
+- Sobre o Projeto
+- Funcionalidades
+- Como Funciona
+- Exemplo de Uso
+- Estrutura do Código
+- Como Executar
+- Tecnologias Utilizadas
+- Contribuição
+- Equipe
 
 ---
 
