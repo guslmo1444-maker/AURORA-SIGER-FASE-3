@@ -28,7 +28,7 @@ Histórico de Eventos	Registra todas as ações e decisões para auditoria
 Adaptação Climática	Ajusta aquecimento automaticamente baseado na temperatura externa
 🔧 Como Funciona
 1. Organização dos Dados
-Os dados são organizados em um dicionário hierárquico:
+Os dados são organizados em um dicionário hierárquico para fácil navegação:
 
 python
 colonia = {
